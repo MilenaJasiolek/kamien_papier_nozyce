@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gra papier kamień nozyce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="play.css" />
+  </head>
+  <body>
+    <h1>BUBU-GRA "KAMIEŃ, PAPIER, NOŻYCE"</h1>
+    <div class="select">
+      <h3>Proszę, wybierz:</h3>
+      <img
+        data-option="kamień"
+        src="kamien.png"
+        alt=""
+        class="first"
+        title="kamień"
+      />
+      <img data-option="papier" src="papier.png" alt="" title="papier" />
+      <img data-option="nożyce" src="nozyce.png" alt="" title="nożyce" />
+    </div>
+    <button class="start">Let's play</button>
+    <div class="panel-right">
+      <h3>Wyniki gry</h3>
+      <p>Twój wybór: <span data-summary="your-choice"></span></p>
+      <p>Wybór komputera: <span data-summary="ai-choice"></span></p>
+      <p>Zwycięzca gry: <span data-summary="who-win"></span></p>
+    </div>
+    <div class="panel-left">
+      <h3>Aktualne wyniki:</h3>
+      <p class="numbers">liczba gier: <span>0</span></p>
+      <p class="wins">wygranych: <span>0</span></p>
+      <p class="losses">przegranych: <span>0</span></p>
+      <p class="draws">remisów: <span>0</span></p>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>

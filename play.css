@@ -1,0 +1,79 @@
+body {
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(67, 23, 41);
+  color: rgb(218, 179, 195);
+  letter-spacing: 2px;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+h3 {
+  margin: 30px 0;
+}
+
+.panel {
+  margin: 20px;
+}
+
+.panel-left,
+.panel-right {
+  display: inline-block;
+  width: 48%;
+  overflow: hidden;
+  margin: 40px auto 0;
+  text-align: center;
+}
+
+.panel-right p {
+  font-size: 20px;
+}
+
+.panel h3 {
+  text-align: center;
+}
+
+h1,
+h3 {
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.select {
+  overflow: hidden;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.select img {
+  width: 200px;
+  margin: 20px;
+  display: inline-block;
+}
+button {
+  color: rgb(67, 23, 41);
+  background-color: rgb(218, 179, 195);
+  border-radius: 20px;
+  border: 2px solid rgb(131, 77, 99);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+  margin: 10px auto;
+  padding: 10px 20px;
+  display: block;
+}
+
+button:hover {
+  background-color: rgb(68, 32, 32);
+  color: white;
+}
